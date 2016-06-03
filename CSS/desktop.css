@@ -44,15 +44,40 @@ body{
  	background 	: orange;
  	height 		: 150px;
  	clear 		: both;
+ 
+
+  
  }
  
+ #banner {
+background-image:url(http://www.intrawallpaper.com/static/images/518164-backgrounds.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center;
+ 
+ }
  .column{
  	width 	: 50%;
  	float 	: left;
  	background : yellow;
- 	min-height : 60vh;
+ 	min-height : 50vh;
+ 	text-align: center;
+
  }
+ .column img{
+ 	width: 50vh;
+ 	padding: 30px;
+ 	position: center;
+ }
+
+p, h1 {text-align: left;
+
+}
  
+ .column p, .column h1 {
+ 	padding:  10px
+
+ }
  footer{
  	clear 		: both;
  	text-align 	:center;
